@@ -1,0 +1,167 @@
+
+
+/* General Styles */
+body {
+   font-family: 'Times New Roman', Times, serif;
+   margin: 20px;
+   padding: 0;
+   background-color: #f0f4f8;
+   background-image: url("bg.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+h1 {
+   text-align: center;
+   color: #e7dddd;
+   text-decoration: underline;
+}
+
+h2, h3 {
+   color: #e4e9ee;
+}
+
+/* Form Styles */
+form {
+   max-width: 900px;
+   margin: auto;
+   background-color: hsla(172, 73%, 96%, 0.3);
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(64, 66, 64, 0.5);
+   padding: 20px;
+}
+
+fieldset {
+   border: 2px solid hsl(240, 3%, 7%);
+   border-radius: 8px;
+   padding: 20px;
+   margin-bottom: 20px;
+   background-color: hsl(208, 100%, 97%, 0.3);
+}
+
+legend {
+   font-weight: bold;
+   text-align: center;
+   color: #e4e9ee;
+   font-size: 25px;
+}
+
+label {
+   display: block;
+   margin-top: 10px;
+   color: #ebeff3;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+input, textarea {
+   width: calc(100% - 1px);
+   padding: 8px;
+   margin-top: 4px;
+   border: 1px solid hsl(240, 3%, 7%);
+   box-shadow: 0 2px 8px;
+   border-radius: 4px;
+   box-sizing: border-box;
+   background-color: hsl(198, 60%, 92%, 0.3);
+}
+
+::placeholder {
+   color: white;
+}
+
+/* Button Styles */
+#submit, .add {
+   display: block;
+   width: 100%;
+   padding: 10px;
+   background-color: #BBBBBB;
+   color: black;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   margin-top: 10px;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   box-shadow: 0 2px 8px;
+}
+
+.add {
+   width: 8%;
+   margin-left: 45%;
+   padding: 10px;
+   border: none;
+   border-radius: 4px;
+   box-shadow: 0 2px 8px;
+   background-color: #BBBBBB;
+   font-weight: bold;
+   margin-top: 20px;
+   color: black;
+}
+
+button, .add:hover {
+   background-color: rgb(67, 69, 71);
+}
+
+button, #submit:hover {
+   background-color: rgb(67, 69, 71);
+   color: #e7dddd;
+}
+
+/* Preview Section Styles */
+#resumePreview {
+   max-width: 900px;
+   margin: auto;
+   padding: 20px;
+   background-color: hsla(172, 73%, 96%, 0.3);
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(64, 66, 64, 0.5);
+}
+
+#resumePreview h2 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+#resumePreview p {
+   font-size: 18px;
+   margin: 10px 0;
+}
+
+#resumePreview button {
+   display: block;
+   width: 100%;
+   padding: 10px;
+   background-color: #BBBBBB;
+   color: black;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   margin-top: 20px;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   box-shadow: 0 2px 8px;
+}
+
+#resumePreview button:hover {
+   background-color: rgb(67, 69, 71);
+   color: #e7dddd;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+   form, #resumePreview {
+       width: 100%;
+       padding: 10px;
+   }
+
+   .add {
+       width: 30%;
+       margin-left: 35%;
+   }
+
+   #submit, .add {
+       width: 100%;
+       margin-left: 0;
+   }
+}
