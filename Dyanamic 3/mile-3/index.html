@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="typescript" href="./src/script.js">
+    <title>Dynamic Resume builder</title>
+</head>
+<body>
+    <header>
+        <h1 class="h1">Make a Professional Resume</h1>
+    </header>
+    
+    <main>
+        <h2>Milestone 3</h2><br>
+        <h2>: Dynamic Resume builder by Muhammad SOMAN Amir.</h2>
+        <form id="resume-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+
+           <label for="Education">Education:</label>
+            <input type="text" id="Education" name="Education" required>
+
+            <label for="Experience">Experience:</label>
+            <input type="text" id="Experience" name="Experience" required>
+            
+            <label for="Skill">Skill:</label>
+            <input type="text" id="Skill" name="Skill" required>
+            
+            <button type="submit">Generate Resume</button>
+        </form>
+        
+    
+        <script src="./src/script.js">
+        </script>
+    </main>
+    <div class="fff" id="resumeOutput">
+            
+        "Resume will be generated below"
+     </div>
+    
+     <footer class="footer">
+        <p>&copy;All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

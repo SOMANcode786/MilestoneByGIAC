@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #2A3663;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #D8DBBD;
+  color: white;
+  padding: 10px 20px;
+  position: relative;
+}
+
+fff{
+align-items: center;
+text-align: center;
+align-content: center;
+}
+
+header h1 {
+  text-align: right;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #2A3663;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #B59F78;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #003366;
+}
+
+footer {
+  background-color: #2A3663;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.h1{
+  text-align: center;
+}
+
+/* #resumeOutput{
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid navy;
+  border-radius: 8px;
+  background-color: white;
+  height: fit-content;
+}
+
+#resumeOutput h2{
+  color: #003366 ;
+  height: fit-content; 
+}*/
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
